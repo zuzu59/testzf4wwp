@@ -1,7 +1,7 @@
 # testzf4wwp
 Juste quelques idées pour comparer visuellement deux sites
 
-Juste quelques idées pour tester visullement deux pages web directement depuis un browser avec des iframes
+Juste quelques idées pour tester visuellement deux pages web directement depuis un browser avec des iframes
 
 # Utilisation
 ```
