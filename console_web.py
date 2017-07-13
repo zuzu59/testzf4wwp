@@ -35,7 +35,7 @@ class MyServer(BaseHTTPRequestHandler):
 			message += '" width="49%" height="10000" align="left" scrollable="no"></iframe>'
 			message += '<iframe src="'
 			message += query_params['url2'][0]
-			message += '" width="49%" height="10000" align="right" scrollable="no"></iframe>'
+			message += '" width="50%" height="10000" align="right" scrollable="no"></iframe>'
 		else:
 			message = ''
 		self._set_headers()
