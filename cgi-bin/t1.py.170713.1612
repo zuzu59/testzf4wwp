@@ -1,0 +1,44 @@
+#!/usr/bin/env python3
+#Petit script python tout simple pour afficher deux iframes côte à côte pour comapraison visuelle de deux sites web
+#zf170713.1558
+
+zheader = """
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>
+	T1
+  </title>
+</head>
+
+<body>
+        """
+
+zfooter = """
+</body>
+</html>
+	"""
+
+
+
+
+
+zbody = """
+    <iframe src="http://leure.epfl.ch" width="49%" height="10000" align="left" scrollable="no"></iframe>
+    <iframe src="http://zuzu123-2:8081/test-web-wordpress.epfl.ch/v1-testwp/reme.html" width="49%" height="10000" align="right" scrollable="no"></iframe>
+	"""
+
+print(zheader)
+
+
+
+
+#print(zbody)
+
+
+
+print(zfooter)
+
+
